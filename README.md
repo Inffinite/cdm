@@ -1,4 +1,4 @@
-## cdm
+## mopy
 [ copy, delete, move ] multiple files at once from the terminal
 
 
