@@ -1,9 +1,14 @@
 {
-  "name": "copy",
+  "name": "cdm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "[ copy, delete, move ] multiple files at once from the terminal",
+  "main": "./bin/index.js",
+  "bin": {
+    "cdm": "./bin/index.js"
+  },
+  "preferGlobal": true,
   "scripts": {
+    "cdm": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
