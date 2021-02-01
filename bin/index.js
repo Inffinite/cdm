@@ -22,6 +22,8 @@ const argv = require('yargs')
     .argv
 const { exec } = require('child_process')
 const copy = require('../lib/copy')
+const del = require('../lib/delete')
+const move = require('../lib/move')
 
 const path = () => {
     if(!argv.path){
@@ -39,11 +41,11 @@ switch(argv.action){
 
     case 'move':
         if(!argv.dest){ return console.log('You must provide a destination file.\n') }
-        move()
+        move.move(argv.filter, path(), argv.dest)
         break;
 
     case 'delete':
-        del()
+        del.del(argv.filter, argv.path)
         break;
 
     default:
