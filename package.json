@@ -1,10 +1,10 @@
 {
   "name": "mopy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "[ copy, delete, move ] multiple files at once from the terminal",
   "main": "./bin/index.js",
   "bin": {
-    "cdm": "./bin/index.js"
+    "mopy": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {

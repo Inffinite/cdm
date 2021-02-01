@@ -51,7 +51,7 @@ switch(argv.action){
         break;
 
     case 'delete':
-        del.del(argv.filter, argv.path)
+        del.del(argv.filter, path())
         break;
 
     default:
