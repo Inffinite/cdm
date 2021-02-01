@@ -56,5 +56,3 @@ switch(argv.action){
         break;
 }
 
-
-// console.log(argv.filter)
