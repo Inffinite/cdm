@@ -1,6 +1,9 @@
 ## mopy
 [ copy, delete, move ] multiple files at once from the terminal
 
+``` bash
+sudo npm -g install mopy
+```
 
 ## Copy multiple files
 ![](https://github.com/Inffinite/cdm/blob/main/copy.png?raw=true)
