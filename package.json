@@ -1,6 +1,6 @@
 {
   "name": "mopy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "[ copy, delete, move ] multiple files at once from the terminal",
   "main": "./bin/index.js",
   "bin": {
